@@ -1,0 +1,35 @@
+apiVersion: 1.0.0
+kind: AssuranceProcedure
+procedure:
+  nrn: "nrn:procedure:IST-85/IST85-Compliance:equal-pay-certification"
+  short: "Check equal pay compliance procedures are enacted"
+  description: |
+    "This procedure verifies that the company is eligable and following a IST85 framework"
+activity:
+  - name: certification-body-check
+    short: "Certification Body Check"
+    description: "This activity verifies that the company is being audited by an accredited body"
+    action:
+      - name: certification-body-check
+        short: "Verify the certification body is an approved organisation"
+        description: "The certification body check, as evidence, demonstrates the company is being audited according to the regulations."
+        test: "activity/equal-pay-certification/verify-certification-body.py"
+        evidence: "evidence/equal-pay-certification/certification-body.txt"
+  - name: minimum-employee-count
+    short: "Minimum Employee Count"
+    description: "This activity verifies that the company has the minimum 25 employees to certify"
+    action:
+      - name: minimum-employee-count
+        short: "Minimum Employee Count"
+        description: "The minimum employee count check certifies that there are more than 25 employees"
+        test: "activity/equal-pay-certification/verify-minimum-employees.py"
+        evidence: "evidence/equal-pay-certification/verify-minimum-employees.json"
+  - name: renewal-interval
+    short: "Renewal Interval"
+    description: "This activity verifies that the company renews its certification every three years"
+    action:
+      - name: renewal-interval-check
+        short: "Renewal Interval Check"
+        description: "This activity, as evidence, checks that the last renewal was less than 3 years previous"
+        test: "activity/equal-pay-certification/verify-maximum-interval.py"
+        evidence: "evidence/equal-pay-certification/verify-maximum-interval.json"
