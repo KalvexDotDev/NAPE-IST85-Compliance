@@ -3,15 +3,11 @@ import json
 MIN_REQUIRED_EMPLOYEES = 25
 def evaluate(evidence):
     try:
-        j = json.loads(evidence)
-        if len(j['results'])>= MIN_REQUIRED_EMPLOYEES:
+        if len(evidence['results'])>= MIN_REQUIRED_EMPLOYEES and type(evidence['results']) is list:
             return ('pass', "The minimum number of employees are present in the employee data")
         else:
             return ('fail',  "The minimum number of employees are NOT present in the employee data")
-    except json.decoder.JSONDecodeError as jde:
-        return ('inconclusive', f"The data supplied as not in a valid format {jde}")
     except KeyError as ke:
         return ('inconclusive', f"The data supplied as not in a valid format {ke}")
     except Exception as e:
-        return ('error', "An unexpected error occured during evaluation of the minimum employee count: {e}")
-        
+        return ('error', f"An unexpected error occured during evaluation of the minimum employee count: {e}")

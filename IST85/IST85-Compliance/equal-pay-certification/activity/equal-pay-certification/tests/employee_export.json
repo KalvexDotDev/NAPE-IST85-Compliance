@@ -1,0 +1,908 @@
+{
+    "_comment": "Reference: https://apidocs.hibob.com/reference/get_bulk-people-salaries",
+    "results": [
+        {
+            "employeeId": "1",
+            "name": "John Doe",
+            "gender": "Male",
+            "startDate": "2018-01-01",
+            "title": "Junior Developer",
+            "classification": "Entry-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 1,
+                            "reason": "Initial hire",
+                            "effectiveDate": "2018-01-01",
+                            "base": {
+                                "value": 50000,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "2",
+            "name": "Jane Smith",
+            "gender": "Female",
+            "startDate": "2015-03-15",
+            "title": "Marketing Specialist",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 2,
+                            "reason": "Promotion",
+                            "effectiveDate": "2019-06-01",
+                            "base": {
+                                "value": 75000,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "2",
+            "name": "David Smith",
+            "gender": "Male",
+            "startDate": "2002-01-20",
+            "title": "Senior Accountant",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 2,
+                            "reason": "Promotion",
+                            "effectiveDate": "2010-04-12",
+                            "base": {
+                                "value": 83953,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "3",
+            "name": "Emily Johnson",
+            "gender": "Female",
+            "startDate": "2007-09-18",
+            "title": "Department Manager",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 3,
+                            "reason": "Promotion",
+                            "effectiveDate": "2015-07-03",
+                            "base": {
+                                "value": 123375,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "4",
+            "name": "Mike Brown",
+            "gender": "Male",
+            "startDate": "2004-06-05",
+            "title": "Junior Developer",
+            "classification": "Entry-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 4,
+                            "reason": "Initial hire",
+                            "effectiveDate": "2004-06-05",
+                            "base": {
+                                "value": 44666,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "5",
+            "name": "John Doe",
+            "gender": "Male",
+            "startDate": "2012-03-11",
+            "title": "Marketing Specialist",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 5,
+                            "reason": "Promotion",
+                            "effectiveDate": "2016-09-27",
+                            "base": {
+                                "value": 75838,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "6",
+            "name": "Sarah Davis",
+            "gender": "Female",
+            "startDate": "2010-11-30",
+            "title": "Senior Engineer",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 6,
+                            "reason": "Promotion",
+                            "effectiveDate": "2018-02-14",
+                            "base": {
+                                "value": 135593,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "7",
+            "name": "Chris Wilson",
+            "gender": "Male",
+            "startDate": "2001-08-22",
+            "title": "CEO",
+            "classification": "Executive-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 7,
+                            "reason": "Promotion",
+                            "effectiveDate": "2020-05-07",
+                            "base": {
+                                "value": 260134,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "8",
+            "name": "Olivia Taylor",
+            "gender": "Female",
+            "startDate": "2009-02-14",
+            "title": "Administrative Assistant",
+            "classification": "Entry-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 8,
+                            "reason": "Initial hire",
+                            "effectiveDate": "2009-02-14",
+                            "base": {
+                                "value": 48972,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "9",
+            "name": "Daniel Anderson",
+            "gender": "Male",
+            "startDate": "2016-07-03",
+            "title": "CFO",
+            "classification": "Executive-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 9,
+                            "reason": "Promotion",
+                            "effectiveDate": "2021-11-18",
+                            "base": {
+                                "value": 287412,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "10",
+            "name": "Sophia Martinez",
+            "gender": "Female",
+            "startDate": "2014-10-28",
+            "title": "Senior Accountant",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 10,
+                            "reason": "Promotion",
+                            "effectiveDate": "2019-03-09",
+                            "base": {
+                                "value": 91245,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "11",
+            "name": "Michael Thompson",
+            "gender": "Male",
+            "startDate": "2011-05-17",
+            "title": "Junior Developer",
+            "classification": "Entry-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 11,
+                            "reason": "Initial hire",
+                            "effectiveDate": "2011-05-17",
+                            "base": {
+                                "value": 52341,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "12",
+            "name": "Emma Jackson",
+            "gender": "Female",
+            "startDate": "2017-09-22",
+            "title": "Department Manager",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 12,
+                            "reason": "Promotion",
+                            "effectiveDate": "2020-01-15",
+                            "base": {
+                                "value": 118762,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "13",
+            "name": "William White",
+            "gender": "Male",
+            "startDate": "2006-12-08",
+            "title": "Marketing Specialist",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 13,
+                            "reason": "Promotion",
+                            "effectiveDate": "2015-06-29",
+                            "base": {
+                                "value": 69123,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "12",
+            "name": "Emma Jackson",
+            "gender": "Female",
+            "startDate": "2017-09-22",
+            "title": "Department Manager",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 12,
+                            "reason": "Promotion",
+                            "effectiveDate": "2020-01-15",
+                            "base": {
+                                "value": 118762,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "13",
+            "name": "William White",
+            "gender": "Male",
+            "startDate": "2006-12-08",
+            "title": "Marketing Specialist",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 13,
+                            "reason": "Promotion",
+                            "effectiveDate": "2015-06-29",
+                            "base": {
+                                "value": 69123,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "14",
+            "name": "Jessica Lee",
+            "gender": "Female",
+            "startDate": "2013-03-19",
+            "title": "Senior Developer",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 14,
+                            "reason": "Promotion",
+                            "effectiveDate": "2018-11-02",
+                            "base": {
+                                "value": 125431,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "15",
+            "name": "Matthew Harris",
+            "gender": "Male",
+            "startDate": "2008-07-07",
+            "title": "Administrative Assistant",
+            "classification": "Entry-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 15,
+                            "reason": "Initial hire",
+                            "effectiveDate": "2008-07-07",
+                            "base": {
+                                "value": 42789,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "16",
+            "name": "Sophia Brown",
+            "gender": "Female",
+            "startDate": "2019-02-28",
+            "title": "Junior Developer",
+            "classification": "Entry-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 16,
+                            "reason": "Initial hire",
+                            "effectiveDate": "2019-02-28",
+                            "base": {
+                                "value": 56123,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "17",
+            "name": "James Johnson",
+            "gender": "Male",
+            "startDate": "2003-11-12",
+            "title": "CFO",
+            "classification": "Executive-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 17,
+                            "reason": "Promotion",
+                            "effectiveDate": "2016-04-01",
+                            "base": {
+                                "value": 298765,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "17",
+            "name": "James Johnson",
+            "gender": "Male",
+            "startDate": "2003-11-12",
+            "title": "CFO",
+            "classification": "Executive-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 17,
+                            "reason": "Promotion",
+                            "effectiveDate": "2016-04-01",
+                            "base": {
+                                "value": 298765,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "18",
+            "name": "Olivia Davis",
+            "gender": "Female",
+            "startDate": "2010-07-18",
+            "title": "Senior Accountant",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 18,
+                            "reason": "Promotion",
+                            "effectiveDate": "2017-09-12",
+                            "base": {
+                                "value": 87654,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "19",
+            "name": "Daniel Wilson",
+            "gender": "Male",
+            "startDate": "2005-02-03",
+            "title": "Junior Developer",
+            "classification": "Entry-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 19,
+                            "reason": "Initial hire",
+                            "effectiveDate": "2005-02-03",
+                            "base": {
+                                "value": 48901,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "20",
+            "name": "Emily Thompson",
+            "gender": "Female",
+            "startDate": "2014-09-29",
+            "title": "Marketing Specialist",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 20,
+                            "reason": "Promotion",
+                            "effectiveDate": "2019-03-17",
+                            "base": {
+                                "value": 72345,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "21",
+            "name": "Michael Brown",
+            "gender": "Male",
+            "startDate": "2007-06-11",
+            "title": "Senior Engineer",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 21,
+                            "reason": "Promotion",
+                            "effectiveDate": "2018-12-05",
+                            "base": {
+                                "value": 131234,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "22",
+            "name": "Sophia Martinez",
+            "gender": "Female",
+            "startDate": "2016-01-25",
+            "title": "Department Manager",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 22,
+                            "reason": "Promotion",
+                            "effectiveDate": "2020-07-09",
+                            "base": {
+                                "value": 115678,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "22",
+            "name": "Sophia Martinez",
+            "gender": "Female",
+            "startDate": "2016-01-25",
+            "title": "Department Manager",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 22,
+                            "reason": "Promotion",
+                            "effectiveDate": "2020-07-09",
+                            "base": {
+                                "value": 115678,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "23",
+            "name": "William Lee",
+            "gender": "Male",
+            "startDate": "2009-04-14",
+            "title": "Junior Developer",
+            "classification": "Entry-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 23,
+                            "reason": "Initial hire",
+                            "effectiveDate": "2009-04-14",
+                            "base": {
+                                "value": 45678,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "24",
+            "name": "Jessica Thompson",
+            "gender": "Female",
+            "startDate": "2012-10-08",
+            "title": "Marketing Specialist",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 24,
+                            "reason": "Promotion",
+                            "effectiveDate": "2017-05-23",
+                            "base": {
+                                "value": 78901,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "25",
+            "name": "Matthew Davis",
+            "gender": "Male",
+            "startDate": "2006-08-21",
+            "title": "Senior Accountant",
+            "classification": "Mid-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 25,
+                            "reason": "Promotion",
+                            "effectiveDate": "2015-02-10",
+                            "base": {
+                                "value": 89012,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "26",
+            "name": "Emma Wilson",
+            "gender": "Female",
+            "startDate": "2018-03-19",
+            "title": "Senior Developer",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 26,
+                            "reason": "Promotion",
+                            "effectiveDate": "2021-09-07",
+                            "base": {
+                                "value": 145678,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "27",
+            "name": "James Brown",
+            "gender": "Male",
+            "startDate": "2001-12-04",
+            "title": "CEO",
+            "classification": "Executive-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 27,
+                            "reason": "Promotion",
+                            "effectiveDate": "2014-06-30",
+                            "base": {
+                                "value": 300000,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "27",
+            "name": "James Brown",
+            "gender": "Male",
+            "startDate": "2001-12-04",
+            "title": "CEO",
+            "classification": "Executive-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 27,
+                            "reason": "Promotion",
+                            "effectiveDate": "2014-06-30",
+                            "base": {
+                                "value": 300000,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "28",
+            "name": "Olivia Johnson",
+            "gender": "Female",
+            "startDate": "2013-07-02",
+            "title": "Administrative Assistant",
+            "classification": "Entry-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 28,
+                            "reason": "Initial hire",
+                            "effectiveDate": "2013-07-02",
+                            "base": {
+                                "value": 42345,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "29",
+            "name": "Daniel Thompson",
+            "gender": "Male",
+            "startDate": "2008-02-17",
+            "title": "Senior Engineer",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 29,
+                            "reason": "Promotion",
+                            "effectiveDate": "2019-11-29",
+                            "base": {
+                                "value": 137890,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "employeeId": "30",
+            "name": "Sophia Davis",
+            "gender": "Female",
+            "startDate": "2015-09-10",
+            "title": "Department Manager",
+            "classification": "Senior-Level",
+            "values": [
+                {
+                    "values": [
+                        {
+                            "id": 30,
+                            "reason": "Promotion",
+                            "effectiveDate": "2019-08-01",
+                            "base": {
+                                "value": 123456,
+                                "currency": "USD"
+                            },
+                            "payPeriod": "Bi-Weekly",
+                            "payFrequency": "Monthly"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "response_metadata": {
+        "cursor": "string"
+    }
+}
