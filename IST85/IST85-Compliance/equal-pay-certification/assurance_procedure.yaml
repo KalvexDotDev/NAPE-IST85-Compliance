@@ -13,7 +13,7 @@ activity:
       - name: certification-body-check
         short: "Verify the certification body is an approved organisation"
         description: "The certification body check, as evidence, demonstrates the company is being audited according to the regulations."
-        test: "activity/equal-pay-certification/verify-certification-body.py"
+        test: "activity/equal-pay-certification/verify_certification_body.py"
         evidence: "evidence/certification-body-check/equal-pay-certification-agreement-2023.md"
   - name: minimum-employee-count
     short: "Minimum Employee Count"
@@ -22,7 +22,7 @@ activity:
       - name: minimum-employee-count
         short: "Minimum Employee Count"
         description: "The minimum employee count check certifies that there are more than 25 employees"
-        test: "activity/equal-pay-certification/verify-minimum-employees.py"
+        test: "activity/equal-pay-certification/verify_minimum_employees.py"
         evidence: "evidence/minimum-employee-count/employee-export.json"
   - name: renewal-interval
     short: "Renewal Interval"
@@ -31,5 +31,5 @@ activity:
       - name: renewal-interval-check
         short: "Renewal Interval Check"
         description: "This activity, as evidence, checks that the last renewal was less than 3 years previous"
-        test: "activity/equal-pay-certification/verify-maximum-interval.py"
+        test: "activity/equal-pay-certification/verify_maximum_interval.py"
         evidence: "evidence/certification-body-check/equal-pay-certification-agreement-2023.md"
