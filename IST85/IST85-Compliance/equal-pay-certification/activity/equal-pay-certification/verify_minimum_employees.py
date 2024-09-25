@@ -1,4 +1,5 @@
 import json
+import traceback
 
 MIN_REQUIRED_EMPLOYEES = 25
 def evaluate(evidence):
@@ -10,4 +11,4 @@ def evaluate(evidence):
     except KeyError as ke:
         return ('inconclusive', f"The data supplied as not in a valid format {ke}")
     except Exception as e:
-        return ('error', f"An unexpected error occured during evaluation of the minimum employee count: {e}")
+        return ('error', f"An unexpected error occured during evaluation of the minimum employee count: {traceback.format_exc()}")

@@ -1,3 +1,5 @@
+import traceback
+
 APPROVED_AUDITORS = [
     "BST",
     "Super Standards",
@@ -17,4 +19,4 @@ def evaluate(evidence):
         else:
             return ('fail', f"It is inconclusive if the certification check is approved because no references to {' or '.join(APPROVED_AUDITORS)} were found")
     except Exception as e:
-        return ('error', f"An error occurred while evaluating whether the certification body is approved or not. The error is as follows: {str(e)}")
+        return ('error', f"An error occurred while evaluating whether the certification body is approved or not. The error is as follows: {traceback.format_exc()}")
