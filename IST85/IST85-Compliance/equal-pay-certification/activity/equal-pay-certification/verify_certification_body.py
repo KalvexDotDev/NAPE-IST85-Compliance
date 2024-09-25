@@ -11,6 +11,9 @@ APPROVED_AUDITORS = [
 
 def evaluate(evidence):
     try:
+        # put evidence back into a string
+        evidence = "".join(evidence)
+
         # We expect a reference to the standards org within the first 10 lines of a document
         for line in evidence.splitlines()[:20]:
             for auditor in APPROVED_AUDITORS:

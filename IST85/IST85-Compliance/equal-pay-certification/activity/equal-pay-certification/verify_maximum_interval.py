@@ -1,11 +1,14 @@
 import re
 from datetime import datetime
 import traceback
+from typing import List, AnyStr
 
 YEARS_DESKTOP_COMPUTING_EXISTED = r'\b(197[5-9]|19[8-9]\d|20\d{2})\b'
 
-def evaluate(evidence):
+def evaluate(evidence: List[AnyStr]):
     try:
+        # put evidence back into a string
+        evidence = "".join(evidence)
         years = re.findall(YEARS_DESKTOP_COMPUTING_EXISTED, evidence)
         if years is None or not years:
             return ('inconclusive', f"It is inconclusive if any years were found in the document")
